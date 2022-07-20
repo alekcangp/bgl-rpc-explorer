@@ -1,48 +1,48 @@
 global.currencyTypes = {
-	"btc": {
-		id: "bgl",
-		type:"native",
-		name:"BGL",
-		multiplier:1,
-		default:true,
-		decimalPlaces:8
-	},
-	"sat": {
-		id: "sat",
-		type:"native",
-		name:"sat",
-		multiplier:100000000,
-		decimalPlaces:0
-	},
-	"usd": {
-		id: "usd",
-		type:"exchanged",
-		name:"USD",
-		multiplier:"usd",
-		decimalPlaces:2,
-		symbol:"$"
-	},
-	"eur": {
-		id: "eur",
-		type:"exchanged",
-		name:"EUR",
-		multiplier:"eur",
-		decimalPlaces:2,
-		symbol:"€"
-	},
-	"gbp": {
-		id: "gbp",
-		type:"exchanged",
-		name:"GBP",
-		multiplier:"gbp",
-		decimalPlaces:2,
-		symbol:"£"
-	},
+  bgl: {
+    id: "bgl",
+    type: "native",
+    name: "BGL",
+    multiplier: 1,
+    default: true,
+    decimalPlaces: 8
+  },
+  sat: {
+    id: "sat",
+    type: "native",
+    name: "sat",
+    multiplier: 100000000,
+    decimalPlaces: 0
+  },
+  usd: {
+    id: "usd",
+    type: "exchanged",
+    name: "USD",
+    multiplier: "usd",
+    decimalPlaces: 2,
+    symbol: "$"
+  },
+  eur: {
+    id: "eur",
+    type: "exchanged",
+    name: "EUR",
+    multiplier: "eur",
+    decimalPlaces: 2,
+    symbol: "€"
+  },
+  gbp: {
+    id: "gbp",
+    type: "exchanged",
+    name: "GBP",
+    multiplier: "gbp",
+    decimalPlaces: 2,
+    symbol: "£"
+  }
 };
 
 global.currencySymbols = {
-	"bgl": "bgl",
-	"usd": "$",
-	"eur": "€",
-	"gbp": "£"
+  bgl: "bgl",
+  usd: "$",
+  eur: "€",
+  gbp: "£"
 };

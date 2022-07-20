@@ -61,7 +61,7 @@ const currencyUnits = [
 
 module.exports = {
   name: "Bitcoin",
-  ticker: "BTC",
+  ticker: "BGL",
   logoUrlsByNetwork: {
     main: "./img/network-mainnet/logo.svg",
     test: "./img/network-testnet/logo.svg",
@@ -82,7 +82,7 @@ module.exports = {
   },
   siteTitlesByNetwork: {
     main: "Bitcoin Explorer",
-    test: "Bitgesell Explorer",
+    test: "Bitgesell Testnet Explorer",
     regtest: "Regtest Explorer",
     signet: "Signet Explorer"
   },
