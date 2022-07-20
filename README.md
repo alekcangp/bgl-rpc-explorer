@@ -43,9 +43,13 @@ See [CHANGELOG.md](/CHANGELOG.md).
  1.1. Past to BGL.conf file these lines to sync with the testnet:
 
 `[test]`
+
 `addnode=164.132.216.62`
+
 `addnode=164.132.216.61`
+
 `addnode=164.132.216.58`
+
 `minimumchainwork=0x000000000000000000000000000000000000000000000000000000000000000ff`
 
 2. Allow `Bitgesell Core` to synchronize with the Bitgesell test network (you *can* use this tool while sychronizing, but some pages may fail).
