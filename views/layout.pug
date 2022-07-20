@@ -241,7 +241,7 @@ html(lang="en")
 							h6 Website
 
 							.ms-2
-								a.footer-link(href="https://bitgesell.ca") bitgesell.ca
+							a.footer-link(href="https://bitgesell.ca") bitgesell.ca
 									
 							
 					.col-lg-3
@@ -249,19 +249,17 @@ html(lang="en")
 							h6 App Details
 
 							.ms-2
-								span version: #{global.appVersion}
-								if (sourcecodeVersion)
-									br
-									span commit: 
-										a.footer-link(href=`https://github.com/janoside/btc-rpc-explorer/commit/${sourcecodeVersion}`) #{sourcecodeVersion}
+							span version: #{global.appVersion}
 								
 							
-
-					
 					.col-lg-3
 						.mb-4
-							
-								
+							h6 Source
+						
+							.ms-2
+							a.footer-link(href="https://github.com/alekcangp/bgl-rpc-explorer") GitHub		
+
+
 
 		+sharedScriptTags
 		
