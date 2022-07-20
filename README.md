@@ -73,10 +73,10 @@ In particular, with `pruning` enabled and/or `txindex` disabled, the following f
 
 ## Install / Run
 
-If you're running on mainnet with the default datadir and port, the default configuration should *Just Work*. Otherwise, see the **Configuration** section below.
+If you're running on testnet with the default datadir and port, the default configuration should *Just Work*. Otherwise, see the **Configuration** section below.
 
 
-#### Run from source:
+#### Run from source or try example on [CodeSandbox](https://codesandbox.io/s/amazing-dawn-mbdcmw):
 
 1. `git clone https://github.com/alekcangp/bgl-rpc-explorer`
 2. `cd bgl-rpc-explorer`
