@@ -7,7 +7,7 @@
 ---
 
 
-![homepage](./public/img/screenshots/homepage.png)
+![mainpage](./public/img/screenshots/mainpage.png)
 
 
 
