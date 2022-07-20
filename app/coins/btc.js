@@ -14,17 +14,17 @@ for (let i = 1; i < 34; i++) {
 const currencyUnits = [
 	{
 		type:"native",
-		name:"BTC",
+		name:"BGL",
 		multiplier:1,
 		default:true,
-		values:["", "btc", "BTC"],
+		values:["", "bgl", "BGL"],
 		decimalPlaces:8
 	},
 	{
 		type:"native",
-		name:"mBTC",
+		name:"mBGL",
 		multiplier:1000,
-		values:["mbtc"],
+		values:["mbgl"],
 		decimalPlaces:5
 	},
 	{
