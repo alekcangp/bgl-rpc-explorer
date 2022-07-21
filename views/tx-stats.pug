@@ -20,8 +20,8 @@ block content
 					.col-lg-6.mb-3
 						.d-flex.flex-row
 							h6.text-card-highlight.fw-light.mb-3
-								span.text-uppercase Last ~24 Hrs
-								span.small.ms-2 (#{new Decimal(txStatsDay.avgTimespan).dividedBy(60).toDP(1)} min/pt)
+								span.text-uppercase Latest	144	Blocks
+						//		span.small.ms-2 (#{new Decimal(txStatsDay.avgTimespan).dividedBy(60).toDP(1)} min/pt)
 						script var txCountDataDay = [];
 						each item, index in txStatsDay.txCounts
 							script txCountDataDay.push({x:#{item.x}, y:#{item.y}});
@@ -32,8 +32,8 @@ block content
 					.col-lg-6.mb-3
 						.d-flex.flex-row
 							h6.text-card-highlight.fw-light.mb-3
-								span.text-uppercase Last ~7 Days
-								span.small.ms-2 (#{new Decimal(txStatsWeek.avgTimespan).dividedBy(60).toDP(1)} min/pt)
+								span.text-uppercase Latest	1008	Blocks
+							//	span.small.ms-2 (#{new Decimal(txStatsWeek.avgTimespan).dividedBy(60).toDP(1)} min/pt)
 
 						script var txCountDataWeek = [];
 						each item, index in txStatsWeek.txCounts
@@ -45,8 +45,8 @@ block content
 					.col-lg-6.mb-3
 						.d-flex.flex-row
 							h6.text-card-highlight.fw-light.mb-3
-								span.text-uppercase Last ~30 Days
-								span.small.ms-2 (#{new Decimal(txStatsMonth.avgTimespan).dividedBy(60).dividedBy(60).toDP(1)} hr/pt)
+								span.text-uppercase Latest 4320	Blocks
+							//	span.small.ms-2 (#{new Decimal(txStatsMonth.avgTimespan).dividedBy(60).dividedBy(60).toDP(1)} hr/pt)
 
 						script var txCountDataMonth = [];
 						each item, index in txStatsMonth.txCounts
@@ -58,8 +58,8 @@ block content
 					.col-lg-6.mb-3
 						.d-flex.flex-row
 							h6.text-card-highlight.fw-light.mb-3
-								span.text-uppercase Last ~365 Days
-								span.small.ms-2 (#{new Decimal(txStatsYear.avgTimespan).dividedBy(60).dividedBy(60).dividedBy(24).toDP(1)} day/pt)
+								span.text-uppercase Latest 52560	Blocks
+							//	span.small.ms-2 (#{new Decimal(txStatsYear.avgTimespan).dividedBy(60).dividedBy(60).dividedBy(24).toDP(1)} day/pt)
 
 						script var txCountDataYear = [];
 						each item, index in txStatsYear.txCounts
@@ -72,7 +72,7 @@ block content
 						.d-flex.flex-row
 							h6.text-card-highlight.fw-light.mb-3
 								span.text-uppercase All Time
-								span.small.ms-2 (#{new Decimal(txStats.avgTimespan).dividedBy(60).dividedBy(60).dividedBy(24).toDP(1)} day/pt)
+							//	span.small.ms-2 (#{new Decimal(txStats.avgTimespan).dividedBy(60).dividedBy(60).dividedBy(24).toDP(1)} day/pt)
 
 						script var txCountDataAlltime = [];
 						each item, index in txStats.txCounts
@@ -93,8 +93,8 @@ block content
 					.col-lg-6.mb-3
 						.d-flex.flex-row
 							h6.text-card-highlight.fw-light.mb-3
-								span.text-uppercase Last ~24 Hrs
-								span.small.ms-2 (#{new Decimal(txStatsDay.avgTimespan).dividedBy(60).toDP(1)} min/pt)
+								span.text-uppercase Latest 144	Blocks
+							//	span.small.ms-2 (#{new Decimal(txStatsDay.avgTimespan).dividedBy(60).toDP(1)} min/pt)
 
 						script var txRateDataDay = [];
 						each item, index in txStatsDay.txRates
@@ -106,8 +106,8 @@ block content
 					.col-lg-6.mb-3
 						.d-flex.flex-row
 							h6.text-card-highlight.fw-light.mb-3
-								span.text-uppercase Last ~7 Days
-								span.small.ms-2 (#{new Decimal(txStatsWeek.avgTimespan).dividedBy(60).toDP(1)} min/pt)
+								span.text-uppercase Latest 1008	Blocks
+							//	span.small.ms-2 (#{new Decimal(txStatsWeek.avgTimespan).dividedBy(60).toDP(1)} min/pt)
 
 						script var txRateDataWeek = [];
 						each item, index in txStatsWeek.txRates
@@ -119,8 +119,8 @@ block content
 					.col-lg-6.mb-3
 						.d-flex.flex-row
 							h6.text-card-highlight.fw-light.mb-3
-								span.text-uppercase Last ~30 Days
-								span.small.ms-2 (#{new Decimal(txStatsMonth.avgTimespan).dividedBy(60).dividedBy(60).toDP(1)} hr/pt)
+								span.text-uppercase Latest 4320	Blocks
+							//	span.small.ms-2 (#{new Decimal(txStatsMonth.avgTimespan).dividedBy(60).dividedBy(60).toDP(1)} hr/pt)
 								
 						script var txRateDataMonth = [];
 						each item, index in txStatsMonth.txRates
@@ -132,8 +132,8 @@ block content
 					.col-lg-6.mb-3
 						.d-flex.flex-row
 							h6.text-card-highlight.fw-light.mb-3
-								span.text-uppercase Last ~365 Days
-								span.small.ms-2 (#{new Decimal(txStatsYear.avgTimespan).dividedBy(60).dividedBy(60).dividedBy(24).toDP(1)} day/pt)
+								span.text-uppercase Latest 52560	Blocks
+							//	span.small.ms-2 (#{new Decimal(txStatsYear.avgTimespan).dividedBy(60).dividedBy(60).dividedBy(24).toDP(1)} day/pt)
 
 						script var txRateDataYear = [];
 						each item, index in txStatsYear.txRates
@@ -146,7 +146,7 @@ block content
 						.d-flex.flex-row
 							h6.text-card-highlight.fw-light.mb-3
 								span.text-uppercase All Time
-								span.small.ms-2 (#{new Decimal(txStats.avgTimespan).dividedBy(60).dividedBy(60).dividedBy(24).toDP(1)} day/pt)
+							//	span.small.ms-2 (#{new Decimal(txStats.avgTimespan).dividedBy(60).dividedBy(60).dividedBy(24).toDP(1)} day/pt)
 
 						script var txRateDataAlltime = [];
 						each item, index in txStats.txRates
