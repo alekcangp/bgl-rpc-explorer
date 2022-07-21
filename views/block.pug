@@ -253,7 +253,7 @@ block content
 						span.me-2(title="This data is unavailable due to blockchain pruning", data-bs-toggle="tooltip")
 							i.bi-backspace.text-danger
 						
-						| Transaction details unavailable due to blockchain pruning
+						| Transaction details unavailable
 						
 				else
 					+contentSection(`${txCount.toLocaleString()} Transaction${txCount == 1 ? "" : "s"}`, false, "blockPageShowTxDetails", true, false)
