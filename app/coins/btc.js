@@ -88,7 +88,7 @@ module.exports = {
   },
   demoSiteUrlsByNetwork: {
     main: "https://bitcoinexplorer.org",
-    test: "https://testnet.bitcoinexplorer.org",
+    test: "https://testnet.bglnode.online",
     signet: "https://signet.bitcoinexplorer.org"
   },
   knownTransactionsByNetwork: {
