@@ -115,7 +115,12 @@ See [instructions here](docs/nginx-reverse-proxy.md) for using nginx+certbot (le
 
 # Solo mining
 
-[BGLminer](https://github.com/BitgesellOfficial/bitgesell/releases/tag/0.1.1)
+You can use two ways:
+
+1. [BGLminer](https://github.com/BitgesellOfficial/bitgesell/releases/tag/0.1.1)
 
 To connect to your node: BGLminer -o `node IP`:18332 -u `rpc username` -p `rpc password` --no-getwork --coinbase-addr=`bgl testnet address` --no-longpoll --no-stratum
+
+
+2. Start BGL Core wallet in testnet mode and run command: BGL-cli -testnet generatetoaddress 1 `your testnet address`
 
