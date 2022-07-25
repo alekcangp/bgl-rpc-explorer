@@ -187,7 +187,7 @@ html(lang="en")
 				form.form-inline.d-none.d-lg-inline(method="post", action="./search", style="width: 325px;")
 					input(type="hidden", name="_csrf", value=csrfToken)
 					.input-group
-						input.form-control(type="text", name="query", placeholder="block height/hash, txid", value=(query))
+						input.form-control(type="text", name="query", placeholder="block height/hash, txid, address", value=(query))
 						
 						button.btn.btn-primary(type="submit", aria-label="Search")
 							i.bi-search
