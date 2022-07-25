@@ -9,7 +9,7 @@
 
 ![mainpage](./public/img/screenshots/mainpage.png)
 
-
+BGL-RPC-Explorer based on [BTC-RPC-Explorer].(https://github.com/janoside/btc-rpc-explorer)
 
 This is a self-hosted explorer for the Bitgesell blockchain, driven by RPC calls to your own [Bitgesell](https://github.com/BitgesellOfficial) node. It is easy to run and can be connected to other tools (like Electrum servers) to achieve a full-featured explorer.
 
