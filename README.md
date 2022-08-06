@@ -48,8 +48,11 @@ Ensure that `Bitgesell Core`'s' RPC server is enabled (`server=1`) and using the
 `[test]`
 
 `addnode=164.132.216.58`
+
 `addnode=164.132.216.61`
+
 `addnode=77.91.69.182`
+
 `minimumchainwork=0xff`
 
 2. Allow `Bitgesell Core` to synchronize with the Bitgesell test network (you *can* use this tool while sychronizing, but some pages may fail).
